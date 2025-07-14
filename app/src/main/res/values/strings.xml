@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sleep Locker</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Bem-vindo ao Sleep Locker</string>
+    <string name="onboarding_welcome_subtitle">Detecte quando você adormece e bloqueie automaticamente a reprodução de mídia</string>
+    <string name="onboarding_permissions_title">Permissões Necessárias</string>
+    <string name="onboarding_permissions_subtitle">Precisamos de algumas permissões para funcionar corretamente</string>
+    <string name="onboarding_bluetooth_title">Conecte sua Mi Band</string>
+    <string name="onboarding_bluetooth_subtitle">Pareie sua Mi Band 9 para detectar quando você adormece</string>
+    <string name="onboarding_test_title">Teste o Bloqueio</string>
+    <string name="onboarding_test_subtitle">Vamos testar se o bloqueio funciona corretamente</string>
+
+    <!-- Permissions -->
+    <string name="permission_bluetooth_rationale">Precisamos de permissão Bluetooth para conectar com sua Mi Band</string>
+    <string name="permission_location_rationale">Precisamos de permissão de localização para descobrir dispositivos Bluetooth próximos</string>
+    <string name="permission_device_admin_rationale">Precisamos de permissão de administrador para bloquear a tela quando você adormecer</string>
+
+    <!-- Main Screen -->
+    <string name="main_sleep_lock">Sleep Lock</string>
+    <string name="main_status_connected">Conectado 👍</string>
+    <string name="main_status_disconnected">Desconectado ❌</string>
+    <string name="main_last_lock">Último bloqueio: %s</string>
+    <string name="main_no_locks">Nenhum bloqueio ainda</string>
+    <string name="main_weekly_stats">Estatísticas semanais</string>
+    <string name="main_minutes_blocked">%d minutos bloqueados</string>
+
+    <!-- Service -->
+    <string name="service_notification_title">Sleep Locker</string>
+    <string name="service_notification_monitoring">Monitorando sono… Estado: %s</string>
+    <string name="service_notification_pause">Pausar monitoramento</string>
+    <string name="service_notification_resume">Retomar monitoramento</string>
+
+    <!-- Sleep States -->
+    <string name="sleep_state_awake">ACORDO</string>
+    <string name="sleep_state_light_sleep">SONO LEVE</string>
+    <string name="sleep_state_asleep">DORMINDO</string>
+
+    <!-- Actions -->
+    <string name="action_continue">Continuar</string>
+    <string name="action_skip">Pular</string>
+    <string name="action_test_lock">Testar Bloqueio</string>
+    <string name="action_back_to_app">Voltar ao App</string>
+    <string name="action_scan_devices">Procurar Dispositivos</string>
+    <string name="action_connect">Conectar</string>
+    <string name="action_disconnect">Desconectar</string>
+
+    <!-- Messages -->
+    <string name="message_lock_success">Tela bloqueada com sucesso!</string>
+    <string name="message_lock_failed">Falha ao bloquear tela</string>
+    <string name="message_device_connected">Dispositivo conectado com sucesso!</string>
+    <string name="message_device_disconnected">Dispositivo desconectado</string>
+    <string name="message_scanning_devices">Procurando dispositivos…</string>
+    <string name="message_no_devices_found">Nenhum dispositivo encontrado</string>
+    <string name="message_device_admin_enabled">Permissão de administrador habilitada</string>
+    <string name="message_device_admin_disabled">Permissão de administrador desabilitada</string>
+
+    <!-- Pro Features -->
+    <string name="pro_upgrade_title">Upgrade para Pro</string>
+    <string name="pro_upgrade_subtitle">Remova anúncios e desbloqueie recursos extras</string>
+    <string name="pro_feature_no_ads">Sem anúncios</string>
+    <string name="pro_feature_stats">Estatísticas detalhadas</string>
+    <string name="pro_feature_vibration">Vibração na pulseira</string>
+    <string name="pro_price">R$ 9,90</string>
+    <string name="pro_upgrade">Fazer Upgrade</string>
+    <string name="pro_restore">Restaurar Compra</string>
+
+    <!-- Errors -->
+    <string name="error_bluetooth_not_available">Bluetooth não está disponível</string>
+    <string name="error_location_permission_denied">Permissão de localização negada</string>
+    <string name="error_device_admin_denied">Permissão de administrador negada</string>
+    <string name="error_connection_failed">Falha na conexão</string>
+    <string name="error_purchase_failed">Falha na compra</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_lock_delay">Delay do bloqueio (minutos)</string>
+    <string name="settings_vibration">Vibração na pulseira</string>
+    <string name="settings_battery_save">Economia de bateria</string>
+    <string name="settings_about">Sobre</string>
+    <string name="settings_version">Versão %s</string>
+</resources>
